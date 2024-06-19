@@ -1,7 +1,5 @@
 import { Nav, NavLink } from "@/components/Nav";
 
-export const dynamic = "forced-dynamic";
-
 export default function Layout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
